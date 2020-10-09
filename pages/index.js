@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import { FaShoppingCart } from 'react-icons/fa';
+
 import styles from '../styles/Home.module.css'
 
 import products from '../products.json';
@@ -16,15 +18,19 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Snipcart Store
-        </h1>
+        <div className={styles.header}>
+          <h1 className={styles.title}>
+            Snipcart Store
+          </h1>
 
-        <p className={styles.description}>
-          <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
-            <strong>Cart:</strong> <span className="snipcart-total-price">$0.00</span>
-          </a>
-        </p>
+          <p className={styles.description}>
+            <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
+              <FaShoppingCart />
+              <strong className="sr-only">Cart</strong>
+              <span className="snipcart-total-price">$0.00</span>
+            </a>
+          </p>
+        </div>
 
         <div className={styles.grid}>
           {products.map(product => {
@@ -32,7 +38,7 @@ export default function Home() {
               <div key={product.id} className={styles.card}>
                 <img src={product.image} alt={`Preview of ${product.title}`} />
                 <h3>{ product.title }</h3>
-                <p>{ product.description }</p>
+                <p className={styles.cardDescription}>{ product.description }</p>
                 <p>${ product.price }</p>
                 <p>
                   <button className="snipcart-add-item"
@@ -52,14 +58,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        &copy; Snipcart Store
       </footer>
 
       <script async src="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js" />
