@@ -63,7 +63,7 @@ export default function Home() {
       </footer>
 
       <script async src="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js" />
-      <div hidden id="snipcart" data-api-key="[YOUR-API-KEY]" />
+      <div hidden id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY} />
     </div>
   )
 }
