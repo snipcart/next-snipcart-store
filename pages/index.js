@@ -9,6 +9,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://app.snipcart.com" />
+        <link rel="preconnect" href="https://cdn.snipcart.com" />
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css" />
       </Head>
 
       <main className={styles.main}>
@@ -48,6 +52,9 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+
+      <script async src="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js" />
+      <div hidden id="snipcart" data-api-key="[YOUR-API-KEY]" />
     </div>
   )
 }
