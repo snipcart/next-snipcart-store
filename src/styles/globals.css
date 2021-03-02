@@ -19,6 +19,17 @@ img {
   max-width: 100%;
 }
 
+button {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #0070f3;
+  padding: .4em .6em;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+}
+
 .sr-only {
   display: block;
   overflow: hidden;

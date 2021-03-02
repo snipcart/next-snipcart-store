@@ -1,0 +1,6 @@
+.container {
+  width: 100%;
+  max-width: 60rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
