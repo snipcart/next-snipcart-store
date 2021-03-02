@@ -4,7 +4,17 @@ This is a demo project using Snipcart to create an ecommerce store with [Next.js
 
 ## Getting Started
 
-First, run the development server:
+### Environment File
+
+Create a file called `.env.local` at the root of the project with:
+
+```
+NEXT_PUBLIC_SNIPCART_API_KEY="[Your Snipcart API Key]"
+```
+
+### Running the Project
+
+Start your development server:
 
 ```bash
 npm run dev
