@@ -32,7 +32,6 @@ export default function Home() {
                     data-item-id={product.id}
                     data-item-image={product.image}
                     data-item-name={product.title}
-                    data-item-url={`/products/${product.id}`}
                     data-item-price={product.price}
                   >
                     Add to Cart
