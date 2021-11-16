@@ -1,6 +1,6 @@
 # Next.js Snipcart Store Demo
 
-This is a demo project using Snipcart to create an ecommerce store with [Next.js](https://nextjs.org/).
+This is a demo project using Snipcart to create an e-commerce store with [Next.js](https://nextjs.org/).
 
 ## Getting Started
 
