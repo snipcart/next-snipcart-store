@@ -1,6 +1,9 @@
-# Next.js Snipcart Store Demo
+![React ecommerce tutorial with Snipcart](https://www.datocms-assets.com/48401/1637161493-react-ecommerce-og.png)
+# How to Build a React E-Commerce Web App
 
-This is a demo project using Snipcart to create an e-commerce store with [Next.js](https://nextjs.org/).
+This is a demo project using [Snipcart](https://snipcart.com) to create an e-commerce store with [Next.js](https://nextjs.org/).
+
+Read the step-by-step tutorial [here](https://snipcart.com/blog/react-ecommerce-tutorial)
 
 ## Getting Started
 
