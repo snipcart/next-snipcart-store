@@ -3,7 +3,7 @@
 
 This is a demo project using [Snipcart](https://snipcart.com) to create an e-commerce store with [Next.js](https://nextjs.org/).
 
-Read the step-by-step tutorial [here](https://snipcart.com/blog/react-ecommerce-tutorial)
+**Read the step-by-step tutorial [here](https://snipcart.com/blog/react-ecommerce-tutorial)**
 
 ## Getting Started
 
